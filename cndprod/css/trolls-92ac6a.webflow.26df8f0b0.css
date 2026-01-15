@@ -2833,7 +2833,7 @@ textarea.w-select {
 .section-timeline {
     z-index: -3;
     background-color: #004dff;
-    background-image: url("/cndprod/66925290145ca7b64d810c7a_pink-clouds.webp");
+    background-image: url("/cndprod/66925290145ca7b64d810c7a_pink-clouds.png");
     background-position: 0 0;
     background-size: 40%;
     justify-content: center;
@@ -2845,7 +2845,7 @@ textarea.w-select {
 }
 
 .timeline_circle {
-    background-color: #e5ee13;
+    background-color: #f7931a;
     border-radius: 1000px;
     width: 30px;
     min-width: 30px;
@@ -2904,7 +2904,7 @@ textarea.w-select {
 
 .progress-bar {
     z-index: -1;
-    background-color: #e5ee13;
+    background-color: #f7931a;
     width: 3px;
     height: 50vh;
     position: fixed;
