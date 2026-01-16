@@ -3595,8 +3595,8 @@ textarea.w-select {
 }
 
 .choose {
-    background-color: #fff;
-    background-image: url("/cndprod/6692c2b98c5d1d272201dbab_workshopbg.png");
+    background-color: #6d8bb7;
+    /* background-image: url("/cndprod/6692c2b98c5d1d272201dbab_workshopbg.png"); */
     background-position: 50% 100%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -3845,7 +3845,7 @@ textarea.w-select {
 
 .ca-w {
     color: #000;
-    background-color: #6a8cba;
+    background-color: #6d8bb7;
     border: 6px solid #000;
     border-radius: 1000px;
     justify-content: flex-start;
@@ -3877,7 +3877,7 @@ textarea.w-select {
 .token-bar {
     grid-column-gap: 25px;
     grid-row-gap: 25px;
-    background-color: #004dff;
+    background-color: #f7931a;
     border: 6px solid #000;
     border-radius: 10000px;
     padding: 20px;
