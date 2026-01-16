@@ -2025,6 +2025,145 @@
             </div>
         </div>
     </section>
+    <section class="nft-slider-section">
+    <h2 class="section-title">NFT Gallery</h2>
+    
+    <!-- First Row - Right to Left -->
+    <div class="slider-container">
+        <div class="slider-track">
+            <!-- NFT Images -->
+            <div class="nft-image-item">
+                <img src="/cndprod/nft1.jpg" alt="NFT 1" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft2.jpg" alt="NFT 2" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft3.jpg" alt="NFT 3" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft4.jpg" alt="NFT 4" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft5.jpg" alt="NFT 5" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft6.jpg" alt="NFT 6" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft7.jpg" alt="NFT 7" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft8.jpg" alt="NFT 8" class="nft-image">
+            </div>
+            <!-- Duplicate for seamless loop -->
+            <div class="nft-image-item">
+                <img src="/cndprod/nft1.jpg" alt="NFT 1" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft2.jpg" alt="NFT 2" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft3.jpg" alt="NFT 3" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft4.jpg" alt="NFT 4" class="nft-image">
+            </div>
+        </div>
+    </div>
+    
+    <!-- Second Row - Left to Right (Reverse) -->
+    <div class="slider-container">
+        <div class="slider-track slider-track-reverse">
+            <div class="nft-image-item">
+                <img src="/cndprod/nft4.jpg" alt="NFT 4" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft5.jpg" alt="NFT 5" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft6.jpg" alt="NFT 6" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft7.jpg" alt="NFT 7" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft8.jpg" alt="NFT 8" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft2.jpg" alt="NFT 2" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft3.jpg" alt="NFT 3" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft1.jpg" alt="NFT 1" class="nft-image">
+            </div>
+            <!-- Duplicate for seamless loop -->
+            <div class="nft-image-item">
+                <img src="/cndprod/nft4.jpg" alt="NFT 4" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft5.jpg" alt="NFT 5" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft6.jpg" alt="NFT 6" class="nft-image">
+            </div>
+            <div class="nft-image-item">
+                <img src="/cndprod/nft7.jpg" alt="NFT 7" class="nft-image">
+            </div>
+        </div>
+    </div>
+    
+    <!-- Inline Styles -->
+    
+    
+    <!-- Inline Script -->
+    <script>
+        // Wait for DOM to be ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initNFTSlider);
+        } else {
+            initNFTSlider();
+        }
+        
+        function initNFTSlider() {
+            // Add click interaction for images
+            const nftItems = document.querySelectorAll('.nft-image-item');
+            
+            nftItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    // Add temporary pulse effect
+                    this.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        this.style.transform = 'scale(1.08)';
+                    }, 150);
+                    
+                    // Create subtle ripple effect
+                    const ripple = document.createElement('div');
+                    ripple.style.position = 'absolute';
+                    ripple.style.borderRadius = '12px';
+                    ripple.style.background = 'rgba(255, 255, 255, 0.2)';
+                    ripple.style.width = '100%';
+                    ripple.style.height = '100%';
+                    ripple.style.top = '0';
+                    ripple.style.left = '0';
+                    ripple.style.zIndex = '1';
+                    ripple.style.animation = 'nftRipple 0.6s ease-out';
+                    
+                    this.appendChild(ripple);
+                    
+                    // Remove ripple after animation
+                    setTimeout(() => {
+                        if (ripple.parentNode === this) {
+                            this.removeChild(ripple);
+                        }
+                    }, 600);
+                });
+            });
+        }
+    </script>
+</section>
     <div class="fixed-top-bar">
         <div class="socials">
             <div data-w-id="2fb07f03-4778-f1d2-bfe3-f1cb988a75f5" style="opacity: 0" class="banner-socials">
