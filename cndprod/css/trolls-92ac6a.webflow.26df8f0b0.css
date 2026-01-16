@@ -2994,7 +2994,7 @@ textarea.w-select {
 }
 
 .scrol-bar.teal {
-    background-color: #5de4c9;
+    background-color: #6a8cba;
 }
 
 .scrol-bar.white {
@@ -3845,7 +3845,7 @@ textarea.w-select {
 
 .ca-w {
     color: #000;
-    background-color: #5de4c9;
+    background-color: #6a8cba;
     border: 6px solid #000;
     border-radius: 1000px;
     justify-content: flex-start;
@@ -3858,7 +3858,7 @@ textarea.w-select {
 
 .token {
     color: #4e2007;
-    background-color: #5de4c9;
+    background-color: #6a8cba;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -4012,7 +4012,7 @@ textarea.w-select {
 }
 
 .banner-socials {
-    background-color: #004dff;
+    background-color: #000;
     border: 7px solid #000;
     border-top: 6px #ef8d42;
     border-left: 6px #ef8d42;
