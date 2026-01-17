@@ -3786,6 +3786,7 @@ textarea.w-select {
     grid-row-gap: 15px;
     flex-flow: column;
     display: flex;
+    margin-top: 50px;
 }
 
 .sign-link-6 {
@@ -3809,7 +3810,7 @@ textarea.w-select {
 
 .about {
     z-index: 2;
-    background-color: #f7931a;
+    background-color: #000;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -3849,7 +3850,7 @@ textarea.w-select {
     border: 6px solid #000;
     border-radius: 1000px;
     justify-content: flex-start;
-    align-self: flex-start;
+    align-self: center;
     align-items: center;
     padding: 10px 15px 10px 10px;
     font-family: Changa One, Impact, sans-serif;
@@ -3947,7 +3948,7 @@ textarea.w-select {
     grid-row-gap: 25px;
     flex-flow: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     max-width: 1350px;
     height: auto;
@@ -4535,6 +4536,7 @@ textarea.w-select {
     .ca-w-w {
         grid-column-gap: 10px;
         grid-row-gap: 10px;
+        
     }
     .counterup {
         padding-top: 10px;
@@ -4763,7 +4765,7 @@ textarea.w-select {
         grid-row-gap: 5px;
         flex-flow: column;
         justify-content: flex-start;
-        align-items: flex-start;
+        align-items: center;
     }
     .ca-button {
         border-radius: 5px;
@@ -5039,7 +5041,7 @@ textarea.w-select {
             
             .slider-track {
                 display: flex;
-                gap: 40px;
+                gap: 20px;
                 animation: nftSlideRightToLeft 40s linear infinite;
             }
             
