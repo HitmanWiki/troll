@@ -2338,7 +2338,7 @@ textarea.w-select {
 }
 
 .troll-img-w {
-    width: 40vw;
+    width: 60vw;
     position: relative;
     top: -51%;
 }
@@ -3993,7 +3993,7 @@ textarea.w-select {
 }
 
 .link-span-1 {
-    color: #b000ef;
+    color: #fe8885;
 }
 
 .link-span-1:hover {
@@ -4055,7 +4055,7 @@ textarea.w-select {
 }
 
 .banner-logo-embed:hover {
-    color: #000;
+    color: #f7931a;
 }
 
 .banner-logo-embed.tiktok {
@@ -4234,7 +4234,7 @@ textarea.w-select {
 }
 
 .text-1-5 {
-    color: #fff;
+    color: #f08d43;
     font-family: Playtimes, sans-serif;
     font-size: 32px;
     line-height: 110%;
@@ -4588,7 +4588,7 @@ textarea.w-select {
         padding-top: 57px;
     }
     .troll-img-w {
-        width: 280vw;
+        width: 580vw;
         top:-120%;
     }
     .hero-signs-w {
