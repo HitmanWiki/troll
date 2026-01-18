@@ -2338,13 +2338,13 @@ textarea.w-select {
 }
 
 .troll-img-w {
-    width: 8vw;
+    width: 40vw;
     position: relative;
     top: -51%;
 }
 
 .troll-img {
-    z-index: 2;
+    z-index: -1;
     width: 100%;
     position: relative;
 }
@@ -3595,7 +3595,7 @@ textarea.w-select {
 }
 
 .choose {
-    background-color: #6d8bb7;
+    background-color: black;
     /* background-image: url("/cndprod/6692c2b98c5d1d272201dbab_workshopbg.png"); */
     background-position: 50% 100%;
     background-repeat: no-repeat;
@@ -4230,11 +4230,11 @@ textarea.w-select {
 
 .white,
 .orange {
-    color: #e7e2c3;
+    color: #fff;
 }
 
 .text-1-5 {
-    color: #e7e2c3;
+    color: #fff;
     font-family: Playtimes, sans-serif;
     font-size: 32px;
     line-height: 110%;
@@ -4246,7 +4246,7 @@ textarea.w-select {
 }
 
 .text-1-5.small.pale {
-    color: #ffd3b2;
+    color: #fff;
     line-height: 140%;
 }
 
@@ -4328,7 +4328,7 @@ textarea.w-select {
 }
 
 .outline-horizontal-bar-w {
-    background-color: #e7e2c3;
+    background-color: #fff;
     flex-flow: column;
     flex: 1;
     justify-content: center;
@@ -4355,7 +4355,7 @@ textarea.w-select {
 }
 
 .outline-verticle-bars {
-    background-color: #e7e2c3;
+    background-color: #fff;
     width: 9.5px;
     max-width: 9.5px;
     height: 100%;
@@ -4375,7 +4375,7 @@ textarea.w-select {
         height: 100vh;
     }
     .troll-img-w {
-        width: 18vw;
+        width: 180vw;
     }
     .hero-signs-w {
         left: 50px;
@@ -4588,7 +4588,8 @@ textarea.w-select {
         padding-top: 57px;
     }
     .troll-img-w {
-        width: 25vw;
+        width: 280vw;
+        top:-120%;
     }
     .hero-signs-w {
         left: 0;
@@ -4794,7 +4795,7 @@ textarea.w-select {
         right: 0%;
     }
     .mushroom-block {
-        width: 44vw;
+        width: 64vw;
     }
     .how-to-but-grid {
         grid-column-gap: 20px;
