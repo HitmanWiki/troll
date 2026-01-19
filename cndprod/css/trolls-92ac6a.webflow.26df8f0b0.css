@@ -2261,7 +2261,7 @@ textarea.w-select {
 .hero {
     z-index: 2;
     background-color: #000;
-    background-image: linear-gradient(#8cf3e0, #e7e9a3);
+    /* background-image: linear-gradient(#8cf3e0, #e7e9a3); */
     width: 100%;
     height: 100vh;
     position: relative;
